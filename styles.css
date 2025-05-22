@@ -1,0 +1,35 @@
+body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; 
+
+    background: #f4f4f4; text-align: center; } 
+    .container { width: 80%; margin: auto; padding: 20px; }
+     
+    /* Header */ 
+    header { background: linear-gradient(to right, hsl(330, 91%, 50%), hsl(249, 100%, 60%)); color: white; padding: 20px 0; } nav ul { list-style: none; padding: 0; } nav ul li { display: inline; margin: 0 15px; } nav ul li a { color: 
+    
+    white; text-decoration: none; font-size: 18px; } 
+    
+    /* About Section */
+    
+    .profile-pic { width: 150px; border-radius: 50%; margin-top: 20px; } #about, #projects, #contact { padding: 50px 0; }
+    
+    /* Projects */
+     .project-list { display: flex; justify-content: center; gap: 20px; } .project { background: white; padding: 20px; 
+    
+    border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 300px; }
+    
+    /* Footer */
+
+      footer { background: #222; color: white; padding: 10px; } 
+
+    :root { --bg-color: #050505; --text-color: #000; --card-bg: #fff; } .dark-mode { --bg-color: #1a1a1a; --text-color: #fff; --card-bg: #333; } body { background: var(--
+
+        bg-color); color: var(--text-color); } .project { background: var(--card-bg); } 
+        :root { --bg-color: #f4f4f4; --text-color: #000; --card-bg: #fff; } .dark-mode { --bg-color: #1a1a1a; --text-color: #fff; --card-bg: #333; } body { background: var(--
+
+            bg-color); color: var(--text-color); } .project { background: var(--card-bg); } 
+/* Fade-in effect */ 
+
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } } section { animation: fadeIn 1s ease-in-out; } 
+                    
+/* contact me */
+
